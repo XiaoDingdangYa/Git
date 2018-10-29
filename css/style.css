@@ -1,0 +1,678 @@
+/* index */
+#demo img{
+	width: 100%;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	cursor: pointer;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+.navbar-default {
+    background-color: rgba(0,0,0,0.5);
+    border-color: transparent;
+}
+#collapsibleNavbar ul{ width: 100%;}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 30px;
+    color: #fff;
+    line-height: 20px;
+}
+.navbar-header button{
+	border-color:#fff;
+	color: #fff;
+	padding: 5px;
+	margin: 5px;
+}
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+.navbar-default .navbar-brand h1 {
+	font-size:35px;
+	line-height: 20px;
+	font-family: 'Varela Round', sans-serif;
+} 
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #FFFFFF;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+	font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	 color: #000;
+    background-color:#fff;
+    text-align:center;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover ,.navbar-default .navbar-nav>li>a.active  {
+    color: #000;
+    background-color:#fff;
+}
+.carousel-item-prev {
+  display: block;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+
+
+
+/* About */
+.headimg img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+.page-header{
+	text-align: center;
+	color: gray;
+}
+p {
+	font-size:16px;
+	font-weight:normal;
+	line-height:30px;
+	padding:0 5px;
+}
+section{
+	margin-bottom: 20px;
+}
+.grid1 figure {
+	position: relative;
+	overflow: hidden;
+	width:100%;
+	height: auto;
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid1 figure img {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 250px;
+}
+
+.grid1 figure figcaption {
+	padding: 2em;
+	color: #fff;
+	font-size: 1em;
+}
+
+.grid1 figure figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.grid1 figure h4 {
+	font-size:30px;
+	font-weight: 300;
+	font-family: 'Varela Round', sans-serif;
+}
+
+.grid1 figure h4,
+.grid1 figure p {
+	margin: 0;
+}
+
+.grid1 figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+figure.effect-duke1 {
+	background: linear-gradient(-45deg, #34495e 0%,#cc6055 100%);
+}
+
+figure.effect-duke1 img,
+figure.effect-duke1 p {
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-duke1:hover img {
+	opacity: 0.1;
+	transform: scale3d(2,2,1);
+}
+
+figure.effect-duke1 p {
+	position: absolute;
+	bottom: 50px;
+	left: 0;
+	margin: 20px;
+	padding: 5px;
+	border: 2px solid #fff;
+	font-size: 90%;
+	opacity: 0;
+}
+
+figure.effect-duke1:hover h4,
+figure.effect-duke1:hover p {
+	opacity: 1;
+	transform: scale3d(1,1,1);
+}
+.staff-info {
+	background:url(../images/staff.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-size:cover;
+	/*-- W3layouts --*/
+	padding:100px 0;
+	margin: 20px 0;
+}
+.staff-head{
+	text-align: center;
+	color: #fff;
+}
+.staff-details {
+    background-color: rgba(43, 0, 24, 0.76);
+    padding: 30px 30px;
+	transition:all 0.5s ease-in-out;
+	margin: 10px 0;
+}
+.staff-details:hover {
+    background-color: rgba(43, 0, 24, 0.95);
+}
+.staff-agile1 img{
+	border-radius:50%;
+	width: 50%;
+	float: left;
+}
+.staff-w3lagile h4 {
+	font-size:20px;
+	font-weight:normal;
+	padding:10px 0;
+	color:#fff;
+	font-family: 'Varela Round', sans-serif;
+}
+.staff-w3lagile p {
+	font-size:17px;
+	font-weight:normal;
+	color:#fff;
+}
+.staff-wthree p {
+	font-size:17px;
+	font-weight:normal;
+	color:#fff;
+	line-height:35px;
+}
+
+section.footer{
+	background:url(../images/footer.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-size:cover;
+	padding:100px 0;
+	margin: -20px 0;
+	
+}
+.footer p{
+	color: #fff;
+}
+section.footer h3,h4 {
+	color:#fff;
+	font-size:25px;
+	font-weight:normal;
+	font-family: 'Varela Round', sans-serif;
+}
+.footer a{
+	color: #fff;
+	text-decoration: none;
+}
+.footer-links-w3ls a :hover{
+	color: #F34A4A;
+}
+.footer-links-w3ls li{
+	list-style: none;
+}
+.btnsub{
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.btnsub:hover{
+	background-color: #fff;
+	color: green;
+}
+.copyright p{
+	text-align: center;
+}
+
+
+/* 产品系列 */
+#top{
+	background: url('../images/top.jpg');
+    background-attachment: fixed;
+    background-size: fill;
+    width: 100%;
+    border: 1px solid black;
+}
+#top img{width: 100%}
+#topword{
+	text-align: center;
+	margin-top: 35%;
+}
+#topword span{
+    color: white;
+    font-size: 40px;
+}
+#topword p{
+    color: white;
+    font-size: 21px;
+}
+#topbtn{
+    text-align: center;
+}
+#topbtn button{
+    border: 1px solid black;
+    background-color: white;
+    width: 150px;
+    height: 30px;
+}
+#topbtnmen{
+    margin-right: 100px;
+}
+#topbtnmen:hover{
+    background-color: gray;
+    color: white;
+}
+#topbtnwomen:hover{
+    background-color: gray;
+    color: white;
+}
+#menbody,#womenbody{
+    background-color: white;
+    margin-bottom: 30px;
+}
+#menbody h1,#womenbody h1{text-align: center;font-size: 55px;}
+#menbody p,#womenbody p{text-align: center;}
+#body1{
+    background-color: gainsboro;
+    height: auto;
+    padding: 10px;
+}
+#body11{
+    height: auto;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#body12 img{
+    width: 100%;
+}
+#body2{
+    padding: 80px;
+}
+#menshoe{
+    background-color: gainsboro;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+}
+#menshoe img{
+    margin-top: 20px;
+    width: 100%;
+    
+}
+#menmid{
+    background-color: gainsboro;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+}
+#menmid img{
+    margin-top: 20px;
+    width: 100%;
+}
+#body3{
+    height: auto;
+    margin-left: 80px;
+    width: 90%;
+    background-color: gainsboro;
+}
+#body3 img{
+    width: 100%;
+    height: 70%;
+}
+#body3word{
+	padding-top: 12%;
+    width: 450px;
+    text-align: left;
+}
+#menbtn{
+    border: 1px solid gray;
+    background-color: black;
+    color: white;
+}
+#menbtn:hover{
+    background-color: rgb(53, 62, 53)
+}
+#womenbody1{
+    background-color: gainsboro;
+}
+#womenbody1word{
+    width: 45%;
+    text-align: center;
+    float: right;
+}
+#womenbody2{
+    text-align: center;
+    padding: 50px;
+    background-color: gainsboro;
+    height: auto;
+}
+#womenimg{
+    height: 100%;
+}
+/* blog */
+figure img{
+    width: 750px;
+}
+.bg{
+    width: 350px;
+    background: whitesmoke;
+    border: 1px solid antiquewhite;
+    border-radius:5px;
+}
+.hover01 figure{
+    overflow: hidden;
+}
+.hover01 img{
+    transform: scale(1);
+    transition: 1s ease-in-out;
+}
+.hover01 img:hover{
+    transform: scale(1.5)
+}
+.grid {
+  padding: 20px 20px 100px 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+}
+
+.grid li {
+  display: inline-block;
+  width: 320px;
+  margin: 0;
+  padding: 0px;
+  text-align: left;
+  position: relative;
+}
+
+.grid figure {
+  margin: 0;
+  position: relative;
+}
+
+.grid figure img {
+  max-width: 100%;
+  display: block;
+  position: relative;
+}
+
+.grid figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 20px 10px 20px;
+  background: #2c3f52;
+  color: #ed4e6e;
+}
+
+.grid figcaption h3 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+.grid figcaption span{
+  position: relative; 
+  bottom: 5px;
+}
+.grid figcaption span:before {
+  content: 'by ';
+}
+
+.grid figcaption a {
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 2px;
+  display: inline-block;
+  background: #ed4e6e;
+  color: #fff;
+}
+
+/* Individual Caption Styles */
+
+
+
+/* Caption Style 4 */
+.cs-style-4 li {
+  -webkit-perspective: 1700px;
+  -moz-perspective: 1700px;
+  perspective: 1700px;
+  -webkit-perspective-origin: 0 50%;
+  -moz-perspective-origin: 0 50%;
+  perspective-origin: 0 50%;
+}
+
+.cs-style-4 figure {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.cs-style-4 figure > div {
+  overflow: hidden;
+}
+
+.cs-style-4 figure img {
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  transition: transform 0.4s;
+}
+
+.no-touch .cs-style-4 figure:hover img,
+.cs-style-4 figure.cs-hover img {
+  -webkit-transform: translateX(25%);
+  -moz-transform: translateX(25%);
+  -ms-transform: translateX(25%);
+  transform: translateX(25%);
+}
+
+.cs-style-4 figcaption {
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: rotateY(-90deg);
+  -moz-transform: rotateY(-90deg);
+  transform: rotateY(-90deg);
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+  -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+  transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.no-touch .cs-style-4 figure:hover figcaption,
+.cs-style-4 figure.cs-hover figcaption {
+  opacity: 1;
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+  -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+  transition: transform 0.4s, opacity 0.1s;
+}
+
+.cs-style-4 figcaption a {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+
+
+/* Caption Style 6 */
+.cs-style-6 figure img {
+  z-index: 10;
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  transition: transform 0.4s;
+}
+
+.no-touch .cs-style-6 figure:hover img,
+.cs-style-6 figure.cs-hover img {
+  -webkit-transform: translateY(-50px) scale(0.5);
+  -moz-transform: translateY(-50px) scale(0.5);
+  -ms-transform: translateY(-50px) scale(0.5);
+  transform: translateY(-50px) scale(0.5);
+}
+
+.cs-style-6 figcaption {
+  height: 100%;
+  width: 100%;
+}
+
+.cs-style-6 figcaption h3 {
+  margin-top: 60%;
+}
+
+.cs-style-6 figcaption a {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+
+@media screen and (max-width: 31.5em) {
+  .grid {
+    padding: 10px 10px 100px 10px;
+  }
+  .grid li {
+    width: 100%;
+    min-width: 300px;
+  }
+}
+
+
+
+/* showtime */
+#video1{
+  z-index: -100;
+  margin: 0;
+  padding: 1px 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+
+}
+#video1 video {
+  z-index: -100;
+  position: fixed;
+  width: 100%;
+  object-fit: fill;
+  height: 500px;
+}
+#showbg{
+  background: url(../images/showbg.jpg)no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+#h3{
+  margin-top: 450px;
+}
+
+.showtimehead{
+  margin-top: 80px;
+  font-size: 40px;
+  text-align: center;
+  color:#6B6854;
+  font: " Trebuchet MS ", Arial, Helvetica, sans-serif;
+}
+
+#left {
+  float: left;
+  position: relative;
+  left: -1000px;
+  top: 400px;
+}
+
+#right {
+  float: right;
+  position: relative;
+  right: -1000px;
+  top: 400px;
+}
+
+.tag img {
+          
+  padding: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 3px rgba(50, 50, 50, .4);
+  z-index: 1;
+  background: #fff;
+}
+
+
+.tag img:hover {
+  -webkit-transform: rotate(0deg) scale(1.5);
+  -ms-transform: rotate(0deg) scale(1.5);
+  transform: rotate(0deg) scale(1.5);
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  z-index: 2;
+}
+
+.tag img {
+  width: 270px;
+  height: 300px;
+}
+
+
+/* blog-post */
+.well{
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  padding: 19px;
+  margin-bottom: 20px;
+}
+.well h4{
+  font-size:20px;
+  color: #BF9090;
+  font-weight:normal;
+  font-family: 'Varela Round', sans-serif;
+  padding:0px 0 15px;
+}
+#box{
+  background-color: #e3e3e3;
+}
+#box h6{
+  font-size:20px;
+  color: #BF9090;
+  font-weight:normal;
+  font-family: 'Varela Round', sans-serif;
+}
+#box p{
+  font-size:17px;
+  font-weight:300;
+  line-height: 30px;
+  padding-bottom:20px;
+}
